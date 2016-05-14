@@ -3,9 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
-
 # Distribution / packaging
 .Python
 env/
@@ -57,6 +54,3 @@ docs/_build/
 
 # PyBuilder
 target/
-
-#Ipython Notebook
-.ipynb_checkpoints
