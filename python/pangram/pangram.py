@@ -1,5 +1,4 @@
 def is_pangram(sentence):
-    sentence = sentence.lower()
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
-    sentence = [char for char in sentence if char in alphabet]
+    sentence = [char for char in sentence.lower() if char in alphabet]
     return set(sentence) == set('abcdefghijklmnopqrstuvwxyz')
