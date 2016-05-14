@@ -5,4 +5,4 @@ def to_rna(dna):
         'T': 'A',
         'A': 'U'
     }
-    return ''.join([dna_to_rna[strand] for strand in dna])
+    return ''.join((dna_to_rna[strand] for strand in dna))
